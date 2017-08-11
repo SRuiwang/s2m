@@ -16,6 +16,11 @@
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjweaver</artifactId>
+      <version>1.7.1</version>
+    </dependency>
     <!-- https://mvnrepository.com/artifact/org.mybatis/mybatis-spring -->
     <dependency>
       <groupId>org.mybatis</groupId>
