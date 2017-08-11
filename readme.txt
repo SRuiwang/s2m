@@ -4,7 +4,8 @@ idea maven 整合s2m
 
 
 部署：
-使用idea发布web项目时，无法访问tomcat主页：
+1.使用idea发布web项目时，无法访问tomcat主页：
 deal: edit configurations -> deployment -> 添加tomcat root 目录
-自己创建的web项目无法发不到tomcat时:
+2.自己创建的web项目无法发不到tomcat时:
 deal:检查artifacts中，需要添加model 'web'
+3.如果还不行，Build -> build artifacts -> all artifacts -> rebuild
