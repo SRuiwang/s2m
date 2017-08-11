@@ -18,4 +18,10 @@ public class HelloController {
         log.info("com.sr.web.controller.Hello.sayHello->say hello");
         return "hello";
     }
+
+    @RequestMapping("/hello1")
+    public String sayHello1() {
+        log.info("com.sr.web.controller.Hello.sayHello->say hello1");
+        return "hello";
+    }
 }
