@@ -27,6 +27,9 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.4.RELEASE" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.5.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.5.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.5.3" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="s2m/web/Web" />

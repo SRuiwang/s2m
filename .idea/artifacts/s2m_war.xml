@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="s2m:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="s2m.war" />
+  </artifact>
+</component>

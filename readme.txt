@@ -15,3 +15,9 @@ deal:检查artifacts中，需要添加model 'web'
 mvc 使用 return forward|redirect 注意
 无法重定向到/web-inf/pags/下，因为无访问权限，所以会报错找不到
 应该redirect -> xxx.do  通过另一个请求跳转实现重定向
+
+ajax 请求json返回乱码 是因为response 的content Type 编码不对
+1、局部
+    @RequestMapping(value = "/getdata/{did}.do",method = RequestMethod.GET,produces = "application/json;charset=utf-8")
+2、全局
+    mvc:annotation 中配置 StringHttpMessageConverter 可以修改charset|supportedMediaTypes

@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="JQuery" type="javaScript">
+    <properties>
+      <option name="frameworkName" value="jQuery" />
+      <option name="frameworkVersion" value="3.2.1" />
+      <sourceFilesUrls>
+        <item url="file://F:/Tools/tomcat64/apache-tomcat-8.5.20/webapps/s2m/bootstrap/js/jquery-3.2.1.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://F:/Tools/tomcat64/apache-tomcat-8.5.20/webapps/s2m/bootstrap/js/jquery-3.2.1.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

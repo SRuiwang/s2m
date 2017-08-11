@@ -16,6 +16,19 @@
     </properties>
 
     <dependencies>
+        <!--
+        Java下常见的Json类库有Gson、JSON-lib和Jackson等，Jackson相对来说比较高效
+        Jackson有1.x系列和2.x系列，2.x系列有3个jar包需要下载：
+        jackson-core-2.2.3.jar（核心jar包）
+        jackson-annotations-2.2.3.jar（该包提供Json注解支持）
+        jackson-databind-2.2.3.jar
+        一个maven依赖就够了
+        -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.5.3</version>
+        </dependency>
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
